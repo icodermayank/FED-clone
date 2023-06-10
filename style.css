@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Remove horizontal scrolling */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 100vw; /* Set maximum width to the viewport width */
+  overflow: hidden; /* Hide any content that overflows the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Additional CSS styles for your content */
+
+#header{
+    display:flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 10%;
+    border: 1px solid gray;
+    align-items: right;
+}
+
+#i{
+/* display: flex;
+justify-content: end; */
+align-items: center;
+
+
+}
+#g{
+position: relative;
+right: 10px;
+}
+
+
+
+
+#app{
+font-size: 40px;
+margin-right:10px ;
+opacity: 40%;
+}
+#ac{
+    margin-top: 10%;
+    font-size: 40px;
+    opacity: 40%;
+}
+
+
+
+/* header part 2  */
+
+#ull{
+    list-style: none;
+    display: flex;
+    
+}
+
+#ull li{
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 70%;
+}
+
+
+
+/* google logo */
